@@ -161,13 +161,13 @@
 @media only screen and (min-width: 992px) {
 
     .site-hero {
-        background-image: url("../images/main-line.svg"), url("../../images/main-line.svg");
+        background-image: url("../images/main-line.svg"), url("../images/main-line.svg");
         background-position: calc(50% + -800px) calc(50% + 322px), calc(50% + 633px) calc(50% + -197px);
         height: 700px;
     }
 
     .site-hero__main-line {
-        background-image: url("../../images/line.svg");
+        background-image: url("../images/line.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
