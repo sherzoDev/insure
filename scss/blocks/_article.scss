@@ -1,0 +1,76 @@
+/* Site Article Start */
+
+.article__wrapper {
+    background-color: $main-midnight-color;
+    padding: 72px 24px;
+    background-image: url("../../images/main-line-m.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 191px) calc(50% + -66px);
+}
+
+.article__title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.555556px;
+    color: $main-white-color;
+}
+
+.article__btn-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aritlce__btn {
+    @include link;
+    color: $main-white-color;
+    border: 1px solid $main-white-color;
+    padding: 13px 24px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $main-white-color;
+        color: $main-midnight-color;
+    }
+
+}
+
+@media only screen and (min-width: 470px) {
+    .article__wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .article__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-position: calc(50% + 466px) calc(50% + -66px);
+    }
+
+    .article__title {
+        text-align: left;
+        width: 475px;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.777778px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .article__wrapper {
+        background-position: calc(50% + 482px) calc(50% - -74px);
+    }
+
+}
